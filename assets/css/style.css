@@ -67,6 +67,7 @@ footer{
 .persona-info{
     width: 25%;
     vertical-align: middle;
+    border-radius: 80%;
 }
 
 .desc-persona{
@@ -120,6 +121,12 @@ h5{
 
 #sec-ayuda h3{
     margin: 1em auto;
+}
+
+#sec-ayuda img{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 5%;
 }
 
 #sec-ayuda a:visited{
