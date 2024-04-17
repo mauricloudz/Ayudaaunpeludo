@@ -180,3 +180,30 @@ footer i {
     font-size: 1.25em;
     letter-spacing: 0.025em;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+  }
+
+.card-content {
+    margin: auto;
+    flex: 1;
+  }
+
+.card {
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+  }
+
+  .card img {
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
